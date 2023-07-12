@@ -1,0 +1,99 @@
+:root {
+    --margin-left: 25px;
+    --margin-right: 25px;
+}
+
+body {
+    background-color: darkolivegreen;
+    color: black;
+    margin: 0px;
+    font-size: large;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+header {
+    font-size: 35px;
+    margin-left: var(--margin-left);
+}
+
+.links {
+    display: flex;
+}
+
+.links li {
+    margin-right: var(--margin-right);
+    list-style: none;
+}
+
+.section {
+   margin-left: var(--margin-left);
+   margin-right: var(--margin-right);
+}
+
+h1#aboutus {
+    display: flex;
+    justify-content: center;
+   
+}
+
+section.section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.float {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.float p {
+    float: right;
+    width: 50%;
+    display: flex;
+    font-size: 25px;
+}
+
+div.floatright {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.floatleft {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;  
+}
+
+p.floatleft {
+    float: left;
+    width: 50%;
+    display: flex;
+    font-size: 25px;
+}
+
+div.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+h2#consumercontact {
+    display: flex;
+    justify-content: center;
+}
+
