@@ -8,6 +8,7 @@ body {
     color: black;
     margin: 0px;
     font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 nav {
@@ -16,6 +17,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 100px;
+    background-color: antiquewhite;
+    
 }
 
 header {
@@ -35,6 +38,7 @@ header {
 .section {
    margin-left: var(--margin-left);
    margin-right: var(--margin-right);
+
 }
 
 h1#aboutus {
@@ -96,4 +100,36 @@ h2#consumercontact {
     display: flex;
     justify-content: center;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border: 2px solid black;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: antiquewhite;  
+}
+
+h3 {
+    margin-left: var(--margin-left);
+    font-size: 35px;
+    margin-left: 39%;
+}
+
 
