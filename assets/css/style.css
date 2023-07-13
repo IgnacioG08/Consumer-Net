@@ -44,6 +44,9 @@ header {
 h1#aboutus {
     display: flex;
     justify-content: center;
+    border-bottom: 5px solid black;
+    font-size: 35px;
+    margin-right: 90px;
    
 }
 
@@ -51,6 +54,7 @@ section.section{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    align-content: center;
 }
 
 .float {
@@ -66,6 +70,7 @@ section.section{
     width: 50%;
     display: flex;
     font-size: 25px;
+    margin-right: 80px;
 }
 
 div.floatright {
@@ -80,13 +85,16 @@ div.floatright {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;  
+    
+   
 }
 
 p.floatleft {
     float: left;
-    width: 50%;
     display: flex;
     font-size: 25px;
+
+    
 }
 
 div.center {
@@ -99,13 +107,26 @@ div.center {
 h2#consumercontact {
     display: flex;
     justify-content: center;
+    border-bottom: 5px solid black;
+
 }
 
 form {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
     border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    box-sizing: border-box;
+    width: 50%;
+    background-color: antiquewhite;
+    box-shadow: 5px 5px 5px 5px black;
+    border-radius: 20px;
+
+
+
 }
 
 .contact {
@@ -115,6 +136,13 @@ form {
     align-items: center;
     height: 150px;
     flex-direction: column;
+}
+
+h2#contactus {
+    border-bottom: 5px solid black;
+    width: 681px;
+    display: flex;
+    justify-content: center;
 }
 
 .footer {
@@ -127,9 +155,25 @@ form {
 }
 
 h3 {
-    margin-left: var(--margin-left);
+    width: 100%;
     font-size: 35px;
-    margin-left: 39%;
+    display: flex;
+    justify-content: center;
+    
+  
+
+
 }
+
+div.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input.Submit:hover {
+    background-color: darkolivegreen;
+}
+
 
 

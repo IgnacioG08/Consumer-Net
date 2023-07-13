@@ -22,7 +22,7 @@
             <h1 id="aboutus">About Us</h1>
             <div class="float">
                 <img src="./assets/images/Team Collaboration.jpg" alt="Team Working To Collect Data"
-                    style="width: 600px;">
+                    style="width: 600px; border-radius: 20px;" >
                 <p>Consumer Net is an organization specializing in consumer data. We gather customers contact
                     information for marketing purposes.
                     However, we do not take use any information without full consent of the users involved. With this
@@ -35,7 +35,7 @@
                 </p>
             </div>
             <div class="center">
-                <img class="floatright" src="./assets/images/User Data.jpg" alt="Data Analytics" style="width: 600px;">
+                <img class="floatright" src="./assets/images/User Data.jpg" alt="Data Analytics" style="width: 600px; border-radius: 20px;">
                 <p class="floatleft">
                     Our team of highly trained experts are here 24/7 to provide quality care through our expertise. We
                     are here to provide
@@ -47,15 +47,18 @@
         </section>
         <section class="section">
             <h2 id="consumercontact">Consumer Contact</h2>
-            <form action=""> 
-                <label for="firstname">First Name:</label>
-                <input type="text"  name="firstname" size="30" maxlength="45" placeholder="Your Name">
+            <form action="">
+                <div class="column">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" name="firstname" size="30" maxlength="45" placeholder="Your Name"><br>
 
-                <label for="lastname"> Last Name:</label>
-                <input type="text" name="lastname" size="30" maxlength="45" placeholder="Your Last Name">
-                <label for="Comments">Comments:</label>
-                <textarea name="Comments" cols="20" rows="5" placeholder="Write Something Here"></textarea>
-                <input class="Submit" type="submit" name="Submit" value="Submit" style="height: 20px; width: 80px;"/>
+                    <label for="lastname"> Last Name:</label>
+                    <input type="text" name="lastname" size="30" maxlength="45" placeholder="Your Last Name"><br>
+                    <label for="Comments">Comments:</label>
+                    <textarea name="Comments" cols="40" rows="8" placeholder="Write Something Here"></textarea>
+                    <input class="Submit" type="submit" name="Submit" value="Submit"
+                        style="height: 20px; width: 80px;" />
+                </div>
             </form>
         </section>
         <section class="contact">
@@ -65,8 +68,8 @@
                 <li><strong>Phone Number: 1-(800)833-8000</strong></li>
             </ul>
         </section>
-        <footer class="footer" >
-            <h3>Consumer Net</h3> 
+        <footer class="footer">
+            <h3>Consumer Net</h3>
         </footer>
 
     </main>
